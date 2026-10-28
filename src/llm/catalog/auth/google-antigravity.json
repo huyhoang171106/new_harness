@@ -1,7 +1,0 @@
-{
-  "id": "google-antigravity",
-  "name": "Google Antigravity (Gemini, Claude, GPT-OSS)",
-  "login": {
-    "type": "oauth-code"
-  }
-}

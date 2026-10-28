@@ -11,8 +11,7 @@ import { hookEngine } from './hook.js';
 /** What a login stores in auth.json (providers.md step 3, `StoredCredential`). */
 export type Credential =
   | { type: 'api_key'; key: string }
-  /** `headers` and `baseUrl` are per-account request details a login found out (e.g. Factory org ID, EU host). */
-  | { type: 'oauth'; access: string; refresh?: string; expires?: number; email?: string; headers?: Record<string, string>; baseUrl?: string }
+  | { type: 'oauth'; access: string; refresh?: string; expires?: number; email?: string }
   | { type: 'fields'; values: Record<string, string> };
 
 export type LoginEngine = (provider: ProviderEntry, ui: CommandUI) => Promise<Credential>;

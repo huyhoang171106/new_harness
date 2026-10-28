@@ -1,7 +1,0 @@
-{
-  "id": "zai-coding-plan",
-  "name": "Z.AI (GLM Coding Plan · Sign in)",
-  "login": {
-    "type": "oauth-code"
-  }
-}

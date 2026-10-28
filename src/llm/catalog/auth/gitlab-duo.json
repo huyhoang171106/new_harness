@@ -1,7 +1,0 @@
-{
-  "id": "gitlab-duo",
-  "name": "GitLab Duo Non-Agentic",
-  "login": {
-    "type": "oauth-code"
-  }
-}

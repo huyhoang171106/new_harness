@@ -163,9 +163,6 @@ export class OpenAIProvider extends BaseLLMProvider {
       headers['X-Title'] = 'Axiom Agent';
     }
 
-    // Catalog headers (providers.md section 7.1) carry provider differences, so they go out last.
-    Object.assign(headers, this.credentials?.headers);
-
     const response = await fetch(endpointUrl, {
       method: 'POST',
       headers,
